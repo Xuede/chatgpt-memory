@@ -6,6 +6,8 @@ import requests
 
 # Import necessary libraries
 import streamlit as st
+from dotenv import load_dotenv
+load_dotenv()
 
 from chatgpt_memory.environment import OPENAI_API_KEY, REDIS_HOST, REDIS_PASSWORD, REDIS_PORT
 
